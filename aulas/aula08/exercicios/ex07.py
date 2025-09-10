@@ -9,5 +9,4 @@ aluno = {
 for chave, valor in aluno.items():
     print(f'{chave}: {valor}')
 
-'''Usando o dicionário do exercício anterior, adicione uma nova chave "curso" com o valor "Python" e remova a chave "idade". Imprima o dicionário resultante.'''
 
