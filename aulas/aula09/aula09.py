@@ -44,3 +44,18 @@ s3 = s1 & s2 # intersecção (Itens presentes em ambos)
 s3 = s2 - s1 # diferença (Itens apenas no set da esquerda)
 s3 = s1 ^ s2 # diferença simetrica (itens que estão em ambos)
 print(s3)
+
+
+# exemplo de uso de SETS
+
+letras = set()
+
+while True:
+    letra = input('Digite: ')
+    letras.add(letra)
+
+    if 'l' in letras:
+        print('Acertou!!')
+        break
+
+    print(letras)
